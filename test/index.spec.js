@@ -38,5 +38,9 @@ describe('Siyalu :) ', function() {
       const output = siyalu("කෞව්වා");
       assert.equal(output, "ෙකෟව්වා");
     });
+    it('කොහොමද', function() {
+      const output = siyalu("කොහොමද");
+      assert.equal(output, "ෙකාෙහාමද");
+    });
   });
 });
